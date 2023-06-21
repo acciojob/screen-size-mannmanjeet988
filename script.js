@@ -4,7 +4,8 @@ var onresize = function() {
    //this is just an example
    width = document.body.clientWidth;
    height = document.body.clientHeight;
-	divElement= document.getElementById("sizeInfo");
+	let divElement= document.querySelector("h1");
+	console.log(divElement)
 	divElement.innerHTML=`Width: ${width} and Height: ${height}`;
 }
 
